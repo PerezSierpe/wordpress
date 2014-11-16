@@ -1,0 +1,10 @@
+	<div id="nav-below" class="navigation">
+					<div class="nav-previous"><?php previous_post_link( '%link', '<i class="icon-left-dir"></i> %title' ); ?></div>
+					<div class="nav-next"><?php next_post_link( '%link', '%title <i class="icon-right-dir"></i>' ); ?></div>
+				</div><!-- #nav-below -->
+
+				<?php comments_template( '', true ); ?>
+
+<?php endwhile; // end of the loop. ?>
+
+			<?php cryout_after_conten
